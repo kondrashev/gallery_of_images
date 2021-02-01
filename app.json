@@ -2,9 +2,17 @@
   "expo": {
     "name": "test_devsteam",
     "slug": "test_devsteam",
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.yourappname",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.mycompany.kondrashev",
+      "versionCode": 1
+    },
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/cell-phone.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
